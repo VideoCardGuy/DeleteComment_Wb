@@ -51,6 +51,9 @@ namespace DeleteWb
             await WebBrowserResult.WaitForLogin(webBrowser1);
             await Task.Run(() => Thread.Sleep(5 * 1000));
 
+            webBrowser1.Visible = false;
+            txtLog.Visible = true;
+
             int nIndex = -1;
             while (true)
             {
