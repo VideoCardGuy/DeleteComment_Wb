@@ -5,6 +5,14 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteWb", "DeleteWb\DeleteWb.csproj", "{9CA90AC9-CDCA-4F28-81BB-72340CB951C2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshot", "Screenshot", "{98A5AF22-3018-4417-B5E3-99714B4234B3}"
+	ProjectSection(SolutionItems) = preProject
+		Screenshot\FirstStep.png = Screenshot\FirstStep.png
+		Screenshot\FourthStep.png = Screenshot\FourthStep.png
+		Screenshot\SecondStep.png = Screenshot\SecondStep.png
+		Screenshot\ThirdStep.png = Screenshot\ThirdStep.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
